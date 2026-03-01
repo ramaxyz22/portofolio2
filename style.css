@@ -1826,3 +1826,67 @@ body.light-theme .mobile-menu {
         height: 180px;
     }
 }
+.gradient-orb {
+    position: fixed;      /* supaya jadi background */
+    z-index: -1;          /* TARUH DI BELAKANG SEMUA */
+    pointer-events: none; /* supaya tidak ganggu klik */
+}
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+/* ================= SCHEDULE ================= */
+
+.schedule {
+    padding: 100px 5%;
+    position: relative;
+    z-index: 2;
+}
+
+.schedule-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.schedule-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 30px;
+    transition: 0.4s ease;
+}
+
+.schedule-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 0 40px rgba(0, 255, 255, 0.2);
+}
+
+.schedule-day {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    background: var(--primary-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.schedule-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.schedule-item .time {
+    opacity: 0.7;
+}
+
+.schedule-item .course {
+    font-weight: 500;
+}
+.footer {
+    background: rgba(255,255,255,0.03);
+    backdrop-filter: blur(10px);
+}
