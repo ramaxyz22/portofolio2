@@ -329,7 +329,7 @@ document.addEventListener('DOMContentLoaded', function() {
 addNewProject({
     title: "Web to ZIP Generator",
     description: "Website archiver yang bisa mengunduh halaman web beserta semua asetnya (HTML, CSS, JS, gambar) dan mengemasnya menjadi file ZIP. Cocok untuk backup website offline.",
-    image: "https://files.catbox.moe/q2un24.png",
+    image: "zip.png",
     url: "https://ramaxyz22.github.io/web-to-zip/",
     tech: ["HTML5", "CSS3", "JavaScript", "JSZip"]
 });
@@ -337,7 +337,7 @@ addNewProject({
 addNewProject({
     title: "Linktree Alternatif rama766hi",
     description: "Website Linktree alternatif dengan desain modern dan futuristik. Dilengkapi profil, link-card interaktif, sosial media, dan view counter. Tema purple-blue khas SENA.",
-    image: "https://files.catbox.moe/i2cui8.png",
+    image: "linktree.png",
     url: "https://linktree-rama.vercel.app",
     tech: ["HTML5", "CSS3", "JavaScript", "Font Awesome"]
 });
@@ -345,7 +345,7 @@ addNewProject({
 addNewProject({
     title: "RAMA SILALAHI BUTTON V2",
     description: "Versi terbaru dari koleksi button UI dengan 9 efek unik (Gooey, Aurora, Glow Bar, Wave, Shake, Glitch, Squishy, Electric dengan petir, dan Bubble). Dilengkapi dengan active state (efek saat ditekan) dan code snippets siap copy.",
-    image: "https://files.catbox.moe/eoyz4g.png",
+    image: "button.png",
     url: "https://ramaxyz22.github.io/button-v2/",
     tech: ["HTML5", "CSS3", "JavaScript", "SVG Filters"]
 });
