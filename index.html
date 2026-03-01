@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAMA SILALAHI • Web Developer</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="cyber-grid"></div>
+    <div class="gradient-orb orb1"></div>
+    <div class="gradient-orb orb2"></div>
+    <div class="gradient-orb orb3"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <span class="logo-text">RAMA<span class="gradient-text">766HI</span></span>
+            </div>
+            
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <span class="hero-badge">New Web Developer</span>
+                <h1 class="hero-title">
+                    RAMA <span class="gradient-text">SILALAHI</span>
+                </h1>
+                <p class="hero-subtitle">
+                    "Stay motivated if you want to be successful."<br>
+                      Indonesian Developer
+                </p>
+                
+                <div class="hero-buttons">
+            <a href="#contact" class="btn-primary">
+                <i class="fas fa-paper-plane"></i>
+                Contact Me
+            </a>
+            <a href="#projects" class="btn-secondary">
+                <i class="fas fa-code-branch"></i>
+                View Projects
+            </a>
+        </div>
+        
+        <!-- STATS DENGAN ID UNIK -->
+        <div class="hero-stats">
+            <div class="stat-item">
+                <span class="stat-number" id="projectsCount">1</span>  <!-- Akan auto update -->
+                <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="daysLearning">45</span>  <!-- Fixed: 30 days -->
+                <span class="stat-label">Days Learning</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="enthusiasmCount">100%</span>  <!-- Tetap infinity -->
+                <span class="stat-label">Enthusiasm</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="hero-visual">
+        <!-- Code window tetap sama -->
+        <div class="code-window">
+            <div class="window-header">
+                <div class="window-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <span>about-RAMA SILALAHI.js</span>
+            </div>
+            <div class="window-content">
+                <pre><code>
+<span class="comment">// New developer on the block</span>
+<span class="keyword">const</span> RAMA SILALAHI= {
+    name: <span class="string">"RAMA SILALAHI"</span>,
+    status: <span class="string">"Learning & Growing"</span>,
+    motto: <span class="string">"Never stop coding"</span>,
+    skills: [<span class="string">"HTML"</span>, <span class="string">"CSS"</span>, <span class="string">"JS"</span>],
+    projects: <span class="string" id="codeProjects">1</span>,  <!-- Ikut auto update -->
+    daysLearning: <span class="string">42</span>,  <!-- Fixed -->
+    <span class="function">future</span>: <span class="string">"Full Stack Developer"</span>
+};
+                </code></pre>
+            </div>
+        </div>
+    </div>
+</section>
+
+        
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="section-header">
+                <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                <p class="section-subtitle">Kenalan sama RAMA SILALAHI</p>
+            </div>
+            
+            <div class="about-container">
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-user-astronaut"></i>
+                    </div>
+                    <h3>Who am I?</h3>
+                    <p>RAMA SILALAHI, new web developer yang lagi belajar coding dengan semangat. Masih newbie tapi gak newbie-newbie amat dalam hal semangat! </p>
+                </div>
+                
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>My Journey</h3>
+                    <p>Mulai dari nol, belajar HTML, CSS, JavaScript. Targetnya bisa bikin project-project keren yang berguna buat banyak orang.</p>
+                </div>
+                
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>What I Love</h3>
+                    <p>Coding, belajar hal baru, ngedesain UI keren, dan yang paling penting: gak pernah nyerah kalau ketemu error.</p>
+                </div>
+            </div>
+        </section>
+        
+<!-- Projects Section - DENGAN PROJECT + PROGRESS (TANPA GITHUB) -->
+<section id="projects" class="projects">
+    <div class="section-header">
+        <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+        <p class="section-subtitle">Karya-karya yang udah gw buat</p>
+    </div>
+    
+    <!-- Learning Progress -->
+    <div class="projects-empty" style="margin-bottom: 40px;">
+        <i class="fas fa-code-branch"></i>
+        <h3>Masih Belajar Tapi Semangat!</h3>
+        <p>Masih dalam tahap pembelajaran, tapi udah bisa bikin project keren kayak di bawah ini!</p>
+        <div class="empty-progress">
+            <div class="progress-text">Learning Progress</div>
+            <div class="progress-bar-container">
+                <div class="progress-fill" style="width: 82%"></div>
+            </div>
+            <span>82%</span>
+        </div>
+    </div>
+    
+    <!-- Projects Grid -->
+    <div class="projects-grid">
+        <!-- Project 1: RAMA SILALAHIUI Buttons (TANPA TOMBOL CODE) -->
+        <div class="project-card" onclick="window.open('https://ramaxyz22.github.io/model-ui/', '_blank')" style="cursor: pointer;">
+            <div class="project-banner">
+                <img src="https://files.catbox.moe/zyg7e7.png" alt="RAMA SILALAHIUI Buttons" class="project-image">
+                <div class="project-overlay">
+                    <i class="fas fa-external-link-alt"></i>
+                    <span>Visit Website</span>
+                </div>
+            </div>
+            <div class="project-info">
+                <h3 class="project-title">RAMA SILALAHIUI Buttons</h3>
+                <p class="project-description">20 unique buttons dengan animasi active yang smooth. Setiap button punya efek berbeda saat diklik - ripple, pop, squish, spin, dan masih banyak lagi.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">HTML5</span>
+                    <span class="tech-tag">CSS3</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">Animations</span>
+                </div>
+                <div class="project-links" style="justify-content: center;">
+                    <!-- HANYA TOMBOL LIVE DEMO, GITHUB DIHAPUS -->
+                    <a href="https://ramaxyz22.github.io/model-ui/" target="_blank" class="project-link live">
+                        <i class="fas fa-external-link-alt"></i> Live Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Project 2: Coming Soon (placeholder) -->
+        <div class="project-card coming-soon">
+            <div class="project-banner">
+                <div class="coming-soon-overlay">
+                    <i class="fas fa-rocket"></i>
+                    <span>Coming Soon</span>
+                </div>
+            </div>
+            <div class="project-info">
+                <h3 class="project-title">Next Project</h3>
+                <p class="project-description">Project berikutnya sedang dalam pengembangan. Nantikan sesuatu yang keren!</p>
+                <div class="project-tech">
+                    <span class="tech-tag">???</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="section-header">
+                <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+                <p class="section-subtitle">Yang udah dipelajari sejauh ini</p>
+            </div>
+            
+            <div class="skills-container">
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> Frontend</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">HTML5</span>
+                            <span class="skill-item">CSS3</span>
+                            <span class="skill-item">JavaScript</span>
+                            <span class="skill-item">Responsive Design</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3><i class="fas fa-tools"></i> Tools</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">VS Code</span>
+                            <span class="skill-item">Git</span>
+                            <span class="skill-item">GitHub</span>
+                            <span class="skill-item">Vercel</span>
+                            <span class="skill-item">Chrome DevTools</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3><i class="fas fa-graduation-cap"></i> Learning</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">React</span>
+                            <span class="skill-item">Node.js</span>
+                            <span class="skill-item">Python</span>
+                            <span class="skill-item">Database</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+<!-- Contact Section - HANYA LOGO VERSION -->
+<section id="contact" class="contact">
+    <div class="section-header">
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+        <p class="section-subtitle">Mari ngobrol atau collaborate!</p>
+    </div>
+    
+    <div class="contact-container">
+        <!-- CONTACT BUTTONS - HANYA LOGO DENGAN ANIMASI -->
+        <div class="contact-buttons logo-only">
+            <!-- GitHub Button - Hanya Logo -->
+            <a href="https://github.com/ramaxyz22" target="_blank" class="contact-btn github" title="GitHub">
+                <div class="btn-icon">
+                    <i class="fab fa-github"></i>
+                </div>
+                <div class="btn-glow"></div>
+                <div class="btn-particles"></div>
+                <span class="btn-tooltip">GitHub</span>
+            </a>
+            
+            <!-- Discord Button - Hanya Logo (Copy on Click) -->
+            <a href="#" class="contact-btn discord" onclick="copyDiscord(); return false;" title="Click to copy Discord">
+                <div class="btn-icon">
+                    <i class="fab fa-discord"></i>
+                </div>
+                <div class="btn-glow"></div>
+                <div class="btn-particles"></div>
+                <span class="btn-tooltip">Discord</span>
+            </a>
+            
+            <!-- Email Button - Hanya Logo -->
+            <a href="sramamaulana@gmail.com" class="contact-btn email" title="Email">
+                <div class="btn-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="btn-glow"></div>
+                <div class="btn-particles"></div>
+                <span class="btn-tooltip">Email</span>
+            </a>
+        </div>
+        
+        <!-- Contact Form (tetap sama) -->
+        <form class="contact-form" id="contactForm" onsubmit="return false;">
+            <input type="text" placeholder="Your Name" id="contactName">
+            <input type="email" placeholder="Your Email" id="contactEmail">
+            <textarea placeholder="Your Message" id="contactMessage" rows="5"></textarea>
+            <button type="button" class="btn-primary" onclick="submitContact()">
+                <i class="fas fa-paper-plane"></i>
+                Send Message
+            </button>
+        </form>
+    </div>
+</section>
+</main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <span>RAMA SILALAHI</span>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://github.com/RAMA SILALAHIRAMA SILALAHI" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" onclick="copyDiscord(); return false;"><i class="fab fa-discord"></i></a>
+                <a href="mailto:RAMA SILALAHIRAMA SILALAHIcoding@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 RAMA SILALAHI • New Web Developer </p>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
